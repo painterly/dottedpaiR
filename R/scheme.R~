@@ -38,15 +38,6 @@ caadr <- function(ls) {
   car(car(cdr(ls)))
 }
 
-cddr <- function(ls) {
-  (cdr(cdr(ls)))
-}
-
-cadar <- function(ls) {
-  car(cdr(car (ls)))
-}
-
-
 list_length <- function(ls) {
   if (null_huh(ls))
     { 0 }
