@@ -13,3 +13,5 @@ URL: https://github.com/painterly/dottedpaiR
 BugReports: https://github.com/painterly/dottedpaiR/issues
 Roxygen: list(wrap = FALSE)
 VignetteBuilder: knitr
+Suggests:
+    knitr, V8 (>= 0.5)
