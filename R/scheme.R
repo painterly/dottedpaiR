@@ -1,4 +1,19 @@
-
+#' dottedpaiR
+#' Scheme functions in R
+#'
+#' @name Scheme
+#'
+#' @param ls list
+#' @param f function
+#' @param l list
+#' @param s list
+#' @param x number
+#' @param a number
+#' @param d number
+#' @examples
+#' cons(3,cons(4,nil))
+#' cdr(cons(3,cons(4,nil)))
+#' @export
 
 nil <- pairlist()
 

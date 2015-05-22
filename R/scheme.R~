@@ -1,3 +1,17 @@
+#' dottedpaiR
+#' Scheme functions in R
+#'
+#' @export
+#' @param ls list
+#' @param f function
+#' @param l list
+#' @param s list
+#' @param x number
+#' @param a number
+#' @param d number
+#' @examples
+#' cons(3,cons(4,nil))
+#' cdr(cons(3,cons(4,nil)))
 
 
 nil <- pairlist()
@@ -37,6 +51,15 @@ caddr <- function(ls) {
 caadr <- function(ls) {
   car(car(cdr(ls)))
 }
+
+cddr <- function(ls) {
+  (cdr(cdr(ls)))
+}
+
+cadar <- function(ls) {
+  car(cdr(car (ls)))
+}
+
 
 list_length <- function(ls) {
   if (null_huh(ls))

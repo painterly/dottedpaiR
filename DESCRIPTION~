@@ -3,9 +3,10 @@ Type: Package
 Title: Scheme programming language functions in R
 Version:  0.1
 Date: 2015-05-21
-Authors@R: c(person("William", "Byrd", role = c("aut"), email =
-    "webyrd@gmail.com"), person("Anita", "Raichand", role = c("aut","cre"),
-    email = "painterlyanalytics@gmail.com"))
+Authors@R: c(person("Anita", "Raichand", role = c("aut", "cre"),
+    email = "painterlyanalytics@gmail.com"),
+    person("William", "Byrd", role = "aut",
+    email = "webyrd@gmail.com"))
 Description: Implements a Scheme-like cons function. Construct lists using the cons function and extract list elements using cdr and car.
 License: MIT + file LICENSE
 LazyData: TRUE
