@@ -1,17 +1,16 @@
 Package: dottedpaiR
 Type: Package
 Title: Scheme programming language functions in R
-Version:  0.1
+Version: 0.1
 Date: 2015-05-21
 Authors@R: c(person("William", "Byrd", role = c("aut"), email =
     "webyrd@gmail.com"), person("Anita", "Raichand", role = c("aut","cre"),
     email = "painterlyanalytics@gmail.com"))
-Description: Implements a Scheme-like cons function. Construct lists using the cons function and extract list elements using cdr and car.
+Description: Implements Scheme-like functions in R.
 License: MIT + file LICENSE
 LazyData: TRUE
 URL: https://github.com/painterly/dottedpaiR
 BugReports: https://github.com/painterly/dottedpaiR/issues
 Roxygen: list(wrap = FALSE)
+Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
-Suggests:
-    knitr, V8 (>= 0.5)

@@ -13,8 +13,6 @@
 #' @examples
 #' cons(3,cons(4,nil))
 #' cdr(cons(3,cons(4,nil)))
-#' @export
-
 
 
 nil <- pairlist()
