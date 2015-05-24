@@ -11,6 +11,5 @@ License: MIT + file LICENSE
 LazyData: TRUE
 URL: https://github.com/painterly/dottedpaiR
 BugReports: https://github.com/painterly/dottedpaiR/issues
-Roxygen: list(wrap = FALSE)
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
