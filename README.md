@@ -14,7 +14,7 @@ In the Scheme and Lisp family of programming languages, car and cdr are primitiv
 
 In R, pairlist objects are similar to Lisp’s dotted-pair lists. Pairlists are deprecated in R and are handled in the same way as generic vectors. When an internal pairlist is accessed from R, it is converted to a generic vector including when taking subsets. The difference between pairlists and lists in R is that the empty pairlist returns null whereas an empty list returns a list.
 
-The dottedpaiR package implements Scheme-like functions in R. It implements a cons function. One can construct lists using the cons function and extract list elements using cdr and car and it's variations. The package is in early development and more functions will be implemented. See the quickstart to start using dottedpaiR.
+The dottedpaiR package implements Scheme-like functions in R. It implements a cons function. One can construct lists using the cons function and extract list elements using cdr and car and it's variations. The package is in development and more functions will be implemented. See the quickstart to start using dottedpaiR.
 
 ## Quick Start
 
@@ -46,6 +46,5 @@ car(cons(3,cons(4,nil)))
 [[1]]
 [1] 3
 ```
-
 
 

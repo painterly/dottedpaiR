@@ -88,6 +88,16 @@ cdaar <- function(ls) {
 }
 
 #' @export
+cdadr <- function(ls) {
+  cdr(car(cdr(ls)))
+}
+
+#' @export
+cddar <- function(ls) {
+  cdr(cdr(car(ls)))
+}
+
+#' @export
 list_length <- function(ls) {
   if (null_huh(ls))
     { 0 }
