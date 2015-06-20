@@ -18,17 +18,34 @@ The dottedpaiR package implements Scheme-like functions in R. It implements a co
 
 ## Quick Start
 
-Construct Scheme-like pairlists using cons
+Construct Scheme-like pairlists using cons:
+
+Note that the arguments to the cons function is a pairlist where 3 is the car and cons(4,nil) is the cdr.
 
 ```r
 cons(3,cons(4,nil))
 ```
-Note that the arguments to the cons function is a pairlist where 3 is the cdr and cons(4,nil) is the car.
+```
+[[1]]
+[1] 3
 
+[[2]]
+[[2]][[1]]
+[1] 4
 
-Extract list elements using cons and cdr and car. The argument must be a pairlist using the cons() function.
+[[2]][[2]]
+NULL
+```
+
+Extract list elements using cons and cdr and car. The argument must be a pairlist using the cons() function:
 
 ```r
-cdr(cons(3,cons(4,nil)))
+car(cons(3,cons(4,nil)))
 ```
+```
+[[1]]
+[1] 3
+```
+
+
 
