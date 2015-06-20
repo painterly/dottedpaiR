@@ -1,4 +1,4 @@
-# dottedpaiR
+<img src="inst/img/dottedpear.png">
 
 ## Installation
 
