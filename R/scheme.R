@@ -48,6 +48,11 @@ cadr <- function(ls) {
 }
 
 #' @export
+caar <- function(ls) {
+  car(car(ls))
+}
+
+#' @export
 cdar <- function(ls) {
   cdr(car(ls))
 }
@@ -64,12 +69,22 @@ caadr <- function(ls) {
 
 #' @export
 cddr <- function(ls) {
-  (cdr(cdr(ls)))
+  cdr(cdr(ls))
 }
 
 #' @export
 cadar <- function(ls) {
-  car(cdr(car (ls)))
+  car(cdr(car(ls)))
+}
+
+#' @export
+caaar <- function(ls) {
+  car(car(car(ls)))
+}
+
+#' @export
+cdaar <- function(ls) {
+  cdr(car(car(ls)))
 }
 
 #' @export
