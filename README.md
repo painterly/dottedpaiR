@@ -20,7 +20,7 @@ The dottedpaiR package implements Scheme-like functions in R. It implements a co
 
 Construct Scheme-like pairlists using cons:
 
-Note that the arguments to the cons function is a pairlist where 3 is the cdr and cons(4,nil) is the car.
+Note that the arguments to the cons function is a pairlist where 3 is the car and cons(4,nil) is the cdr.
 
 ```r
 cons(3,cons(4,nil))
