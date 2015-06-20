@@ -1,4 +1,4 @@
-<img src="inst/img/dottedpear.png">
+<img src="inst/img/dottedpair.png">
 
 ## Installation
 
